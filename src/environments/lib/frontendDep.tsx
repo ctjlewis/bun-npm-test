@@ -1,0 +1,1 @@
+export const FrontendDependency = () => <h1>hello!</h1>;

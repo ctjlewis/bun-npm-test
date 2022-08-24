@@ -1,8 +1,17 @@
 {
-  "name": "boxes-bun",
+  "name": "bun-npm-test",
+  "license": "MIT",
   "version": "0.0.3",
-  "module": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*/index.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

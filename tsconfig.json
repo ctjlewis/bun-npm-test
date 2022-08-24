@@ -1,9 +1,18 @@
 {
+  "include": [
+    "src/**/*"
+  ],
   "compilerOptions": {
-    "lib": ["ESNext"],
+    "moduleResolution": "nodenext",
     "module": "esnext",
     "target": "esnext",
-    // "bun-types" is the important part
-    "types": ["bun-types"]
+    "lib": [
+      "ESNext"
+    ],
+    "rootDir": "src",
+    "outDir": "dist",
+    "types": [
+      "bun-types"
+    ]
   }
 }
